@@ -55,7 +55,6 @@ func printstuff() {
 }
 
 func onReady() {
-    systray.SetTemplateIcon(icon.Data, icon.Data)
     systray.SetTitle("Awesome App")
     systray.SetTooltip("Lantern")
     mQuitOrig := systray.AddMenuItem("Quit", "Quit the whole app")
